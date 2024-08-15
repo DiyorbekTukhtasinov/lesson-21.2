@@ -1,0 +1,274 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GLOBAL STYLES */
+
+.container {
+  width: 1356px;
+  margin: auto;
+  height: max-content;
+}
+
+sub {
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #646464;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #caa892;
+  border: none;
+  padding: 5px 18px;
+  border-radius: 15px 0 15px 0;
+  align-items: center;
+  cursor: pointer;
+}
+
+.introduction__btn,
+.about_us__btn,
+.successfull__btn {
+  background-color: #37806b;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: #212121;
+}
+
+.introduction__info p,
+.about_us__content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #646464;
+  margin: 23px 0;
+}
+
+/* NAV BAR SECTION  */
+
+.nav {
+  padding: 57px 0;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  align-items: center;
+}
+
+.nav__list a {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav__list span {
+  color: #000;
+}
+
+/* INTRODUCTION SECTION  */
+
+.introduction__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+}
+
+.introduction__info {
+  width: calc(50% - 22px);
+  padding: 80px 0;
+}
+.introduction__img {
+  width: calc(50% - 22px);
+}
+
+.introduction__img img {
+  width: 100%;
+}
+
+.introduction__info h1 {
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 78px;
+  color: #212121;
+  margin: 12px 0;
+}
+
+/* SERVICES SECTION  */
+
+.service__header h2 {
+  line-height: 78px;
+}
+
+.services__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+}
+
+.design,
+.planning,
+.architecture {
+  width: calc(33% - 21px);
+  height: 193px;
+  text-align: center;
+  border-radius: 60px 0px 60px 0px;
+  box-shadow: 0px 8px 20px 0px #00000024;
+  padding: 50px 0;
+}
+
+.architecture {
+  background-color: #caa892;
+  color: #ffffff;
+}
+
+.services__wrapper h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.design__content,
+.planning__content,
+.architecture__content {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 12px 60px;
+}
+
+.design__content,
+.planning__content {
+  color: #646464;
+}
+
+/* ABOUT US SECTION  */
+
+.about__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 132px;
+  margin: 236px 0 224px 0;
+}
+
+.about_us__img {
+  width: 50%;
+}
+
+.about_us__img img {
+  border-radius: 150px 0;
+}
+
+.about_us__content {
+  width: 543px;
+  height: 412px;
+  margin-top: 58px;
+}
+
+.about_us__content h2 {
+  line-height: 57px;
+}
+
+.about_us__btn {
+  margin-top: 23px;
+  padding: 10px 19px;
+}
+
+/* SUCCESSFULL SECTION  */
+
+.successfull__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 154px;
+  margin: auto;
+}
+
+.successfull__img,
+.successfull__content {
+  width: calc(50% - 78px);
+}
+
+.successfull__content sub {
+  font-size: 288px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #000;
+  padding: 169px 0;
+}
+
+.successfull__btn {
+  margin: 35px 0 82px 0;
+}
+
+.successfull__img img {
+  width: 100%;
+  border-radius: 150px 0;
+}
+
+/* CLIENTS SAYS SECTION  */
+
+.clients__title {
+  text-align: center;
+  margin: 184px 0 99px 0;
+}
+
+.clients__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 51px;
+}
+
+.clients__card1,
+.clients__card2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: center;
+  width: calc(50% - 25.5px);
+  border-radius: 60px 0px 60px 0px;
+  box-shadow: 0px 8px 20px 0px #00000024;
+}
+
+.clients__card1__said,
+.clients__card2__said {
+  width: calc(50% - 20px);
+}
+.clients__card1__said h3,
+.clients__card2__said h3 {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.clients__wrapper img {
+  width: 130px;
+  height: 131px;
+  border-radius: 50px 0;
+  margin: 37px;
+}
+
+/* OUR BLOG SECTION  */
+
+#our__blog {
+  background-color: #F8F8F8;
+}
+
+.our__blog__wrapper {
+  
+}
